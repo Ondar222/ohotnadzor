@@ -46,7 +46,7 @@ export const getServerSideProps = async ({ query: { page = 1 } }) => {
 const Home = ({ news, page, pageSize, pageCount, total, links }) => {
 
     useEffect(() => {
-        Widget("https://pos.gosuslugi.ru/form", 359178)
+        Widget("https://pos.gosuslugi.ru/form", 343823)
     }, [])
 
     const router = useRouter()
